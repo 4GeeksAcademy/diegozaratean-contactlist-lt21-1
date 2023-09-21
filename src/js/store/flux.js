@@ -12,7 +12,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					background: "white",
 					initial: "white"
 				}
-			]
+			],
+			count: 0,
+			characters: [],
+			loquesea: 'literalment lo que sea'
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
